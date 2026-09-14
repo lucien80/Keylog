@@ -25,7 +25,7 @@ logging.info("Démarrage du script")
 # Serveur web de sensibilisation : streaming live des frappes (SSE)
 # ---------------------------------------------------------------------------
 
-HOST = "192.168.1.18"   # écoute uniquement en local (démo). Mettre "0.0.0.0" pour l'exposer sur le réseau.
+HOST = "0.0.0.0"   # écoute uniquement en local (démo). Mettre "0.0.0.0" pour l'exposer sur le réseau.
 PORT = 8080
 
 # Chaque client connecté possède sa propre file. On y pousse les évènements.
